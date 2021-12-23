@@ -139,7 +139,49 @@
 
         modified:   README.md
 
-        
+
+
+#### 12. Quick Setup for Dev
+
+        Steps:
+
+        1. Jalankan server qrmenu_backend
+        2. Jalankan server qrmenu_frontend
+        3. Login proses
+
+           Dari halaman login kita akan melakukan login
+           dengan memanggil server login API to authenticate
+           the user.
+
+           Jika login sukses, maka server akan meresponnya
+           dengan mengirim auth token kembali kepada
+           client.
+
+           Perhatikanlah caranya sbb:
+
+           1. Buka browser backend kunjungi ini: 
+              http://127.0.0.1:8000/auth/token/login/
+
+           2. Pasang username dan password yg telah 
+              dibuat pada backend:
+
+                username:superuser
+                password:superuser
+
+           3. Klik Post
+           4. Periksa hasil: 
+              -token dikembalikan oleh server
+              -login berhasil
+
+              DONE:)
+
+
+
+
+           
+
+
+
 
 
 
