@@ -44,3 +44,23 @@
 
 
 
+#### 9.1 Layout in Frontend App - Instal bootstrap
+
+        Steps:
+
+        1. Stop react server
+           > Ctr + c
+        2. Instal react-bootstrapt
+           > npm install react-bootstrap@1.5.2 -s
+        3. Instal bootstrap 4
+           > npm install bootstrap@4.6.0 -s
+        4. Pada src/index.js: import 'bootstrap/dist/css/bootstrap.min.css';
+        5. Pada public/index.html: instal google fonts
+        6. Pada src/index.css: set the font family
+
+        modified:   README.md
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   public/index.html
+        modified:   src/index.css
+        modified:   src/index.js
