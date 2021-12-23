@@ -112,3 +112,34 @@
         modified:   src/index.css
         modified:   src/index.js
         modified:   src/router/App.js
+
+
+
+### TASK 3 - SISTEM AUTENTIKASI
+
+
+#### 11 Task 3 Overview
+
+        Pada task 3 ini kita akan belajar membuat sistem
+        autentikasi menggunakan React Context and React Hooks
+        dengan tujuan: 
+
+        1. Membuat sistem dapat berbagi (share) data antar
+        komponen react dengan mudah.
+
+        2. Untuk menyimpan dan berbagi authenticated token diantara 
+        komponen.
+
+        3. Membuat public dan private brows antar halaman yang berbeda pada aplikasi react.
+
+        4. Untuk membuat first function dalam react untuk melakukan
+        request pada sebuah IPI dan dapatkan data dari server.
+
+        Itulah yang akan kita lakukan pada TASK 3 ini.
+
+        modified:   README.md
+
+        
+
+
+
