@@ -92,3 +92,23 @@
         modified:   src/layouts/MainLayout.js
         modified:   src/pages/Home.js
         modified:   src/pages/Login.js
+
+
+
+#### 10. Notification with Toastify
+
+        Steps:
+
+        1. Instal react-toastify
+           > npm install react-toastify@7.0.3 -s
+        2. Periksa hasilnya
+        3. Pada src/index.js: import react-toastify
+        4. Pada src/router/App.js: import ToastContainer
+        5. Modify index.css
+
+        modified:   README.md
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   src/index.css
+        modified:   src/index.js
+        modified:   src/router/App.js
