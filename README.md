@@ -76,3 +76,19 @@
 
         modified:   README.md
         new file:   src/layouts/MainLayout.js
+
+
+
+#### 9.3 Layout in Frontend App - Setup halaman layout
+
+        Steps:
+
+        1. Setup halaman MainLayout
+        2. Import MainLayout pada halaman Home
+        3. Import MainLayout pada halaman Login
+        4. Periksa hasilnya
+
+        modified:   README.md
+        modified:   src/layouts/MainLayout.js
+        modified:   src/pages/Home.js
+        modified:   src/pages/Login.js

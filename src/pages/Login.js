@@ -1,5 +1,6 @@
 import React from 'react';
+import MainLayout from '../layouts/MainLayout';
 
-const Login = () => <div><h1>Login</h1></div>
+const Login = () => <MainLayout><h1>Login</h1></MainLayout>
 
 export default Login;
