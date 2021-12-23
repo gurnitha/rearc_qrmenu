@@ -64,3 +64,15 @@
         modified:   public/index.html
         modified:   src/index.css
         modified:   src/index.js
+
+
+
+#### 9.2 Layout in Frontend App - Membuat layout
+
+        Steps:
+
+        1. Membuat folder src/layouts
+        2. Membuat file src/layouts/MainLayout.js
+
+        modified:   README.md
+        new file:   src/layouts/MainLayout.js
