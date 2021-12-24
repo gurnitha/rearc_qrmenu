@@ -1,8 +1,6 @@
 ### MEMBUAT FRONTEND QRMenu MENGGUNAKAN REACT V17.2
 
-
 #### 8.1 Membuat Reat App
-
 
         Steps:
 
@@ -14,9 +12,7 @@
 
         modified:   README.md
 
-
 #### 8.2 Memodifikasi files
-
 
         Steps:
 
@@ -42,8 +38,6 @@
         new file:   src/router/App.js
         deleted:    src/setupTests.js
 
-
-
 #### 9.1 Layout in Frontend App - Instal bootstrap
 
         Steps:
@@ -65,8 +59,6 @@
         modified:   src/index.css
         modified:   src/index.js
 
-
-
 #### 9.2 Layout in Frontend App - Membuat layout
 
         Steps:
@@ -76,8 +68,6 @@
 
         modified:   README.md
         new file:   src/layouts/MainLayout.js
-
-
 
 #### 9.3 Layout in Frontend App - Setup halaman layout
 
@@ -92,8 +82,6 @@
         modified:   src/layouts/MainLayout.js
         modified:   src/pages/Home.js
         modified:   src/pages/Login.js
-
-
 
 #### 10. Notification with Toastify
 
@@ -113,21 +101,18 @@
         modified:   src/index.js
         modified:   src/router/App.js
 
-
-
 ### TASK 3 - SISTEM AUTENTIKASI
-
 
 #### 11 Task 3 Overview
 
         Pada task 3 ini kita akan belajar membuat sistem
         autentikasi menggunakan React Context and React Hooks
-        dengan tujuan: 
+        dengan tujuan:
 
         1. Membuat sistem dapat berbagi (share) data antar
         komponen react dengan mudah.
 
-        2. Untuk menyimpan dan berbagi authenticated token diantara 
+        2. Untuk menyimpan dan berbagi authenticated token diantara
         komponen.
 
         3. Membuat public dan private brows antar halaman yang berbeda pada aplikasi react.
@@ -138,8 +123,6 @@
         Itulah yang akan kita lakukan pada TASK 3 ini.
 
         modified:   README.md
-
-
 
 #### 12. Quick Setup for Dev
 
@@ -159,23 +142,21 @@
 
            Perhatikanlah caranya sbb:
 
-           1. Buka browser backend kunjungi ini: 
+           1. Buka browser backend kunjungi ini:
               http://127.0.0.1:8000/auth/token/login/
 
-           2. Pasang username dan password yg telah 
+           2. Pasang username dan password yg telah
               dibuat pada backend:
 
                 username:superuser
                 password:superuser
 
            3. Klik Post
-           4. Periksa hasil: 
+           4. Periksa hasil:
               -token dikembalikan oleh server
               -login berhasil
 
               DONE:)
-
-
 
 #### 13. Login Process
 
@@ -184,15 +165,15 @@
         1. Membuat login form pada halaman login agar
            user dapat mengisi username dan passwordnya.
         2. Membuat file baru: src/apis.js
-        3. Pada apis.js: buat signIn function 
+        3. Pada apis.js: buat signIn function
            untuk memanggil login API
            untuk authenticate user:
 
-           - jika login berhasil, server akan 
+           - jika login berhasil, server akan
              mengembalikan
              auth_token pd frontend
         4. Implemen the signIn function to Login page
-        5. Add the proxy server path to package.json 
+        5. Add the proxy server path to package.json
            file to call the API
 
         NOTE:
@@ -203,10 +184,30 @@
 
         modified:   package.json
         new file:   src/apis.js
-        modified:   src/pages/Login.js        
+        modified:   src/pages/Login.js
 
 
 
+#### 14. React Context
+
+        Steps:
+
+        Introduction
 
 
 
+#### 15. Create Auth Context
+
+        Steps:
+
+        1. Buat file: pages/Places.js
+        2. Tulis code pada Places.js
+        3. Lihat hasilnya
+        4. Buat folder: srs/contexts
+        5. Buat file: src/contexts/AuthContext.js
+        6. Tulis code pada AuthContext.js
+
+        modified:   README.md
+        new file:   src/contexts/AuthContext.js
+        new file:   src/pages/Places.js
+        modified:   src/router/App.js
