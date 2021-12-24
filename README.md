@@ -177,8 +177,33 @@
 
 
 
+#### 13. Login Process
 
-           
+        Steps:
+
+        1. Membuat login form pada halaman login agar
+           user dapat mengisi username dan passwordnya.
+        2. Membuat file baru: src/apis.js
+        3. Pada apis.js: buat signIn function 
+           untuk memanggil login API
+           untuk authenticate user:
+
+           - jika login berhasil, server akan 
+             mengembalikan
+             auth_token pd frontend
+        4. Implemen the signIn function to Login page
+        5. Add the proxy server path to package.json 
+           file to call the API
+
+        NOTE:
+
+        Login sukses!
+
+        ING:)
+
+        modified:   package.json
+        new file:   src/apis.js
+        modified:   src/pages/Login.js        
 
 
 
