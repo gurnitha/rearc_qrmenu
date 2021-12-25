@@ -43,14 +43,6 @@ export function signIn(username, password) {
       })
     }) // End check in the console
 
-    // 2. If sign in success, call API to send response  
-    //    to the client by displaying success message in the browser
-    .then((json) => {
-      // json: as the message
-      // type: success
-      toast(JSON.stringify(json), { type: "success" });
-    }) // End success sign in
-
     // Handle all errors throwing from the above
     .catch((e) => {
       // Handle all errors

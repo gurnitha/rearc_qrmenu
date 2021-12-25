@@ -258,5 +258,45 @@
 
 
 
+#### 17. Storing Auth Token
+
+        Pada latihan yg baru saja kita selesaikan,
+        kita telah membuat AuthContext sebagai wadah
+        untuk men-share data lintas komponen, tetapi
+        kita belum men-store token yg dikembalikan
+        oleh server sehingga setelah berhasil logi 
+        sistem mengembalikan/redirect lagi kita ke 
+        halaman login.
+
+        Itulah sebabanya, walaupun sdh berhasil 
+        login namun dikembalikan lagi ke halaman 
+        login.
+
+        Oleh karena itu, kita harus melakukan 
+        beberapa hal dalam pelajaran ini agar 
+        tujuan ke halaman Places stlh berhasil 
+        login bisa tercapai.
+
+        Steps:
+
+        1. Memodifikasi letak menu Places
+        2. Menghilangkan flash message
+        3. Pada AuthContext.js: Implemen Sign In dan Sign Out proses:
+           - store auth token when signed in
+           - remove auth token when signed out
+           - Handle the login status
+
+        modified:   src/apis.js
+        modified:   src/contexts/AuthContext.js
+        modified:   src/layouts/MainLayout.js
+        modified:   src/pages/Login.js
+
+        NOTE:
+
+        Spinner tidak bekerja!!!
+
+
+
+
 
 
