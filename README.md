@@ -211,3 +211,52 @@
         new file:   src/contexts/AuthContext.js
         new file:   src/pages/Places.js
         modified:   src/router/App.js
+
+
+
+#### 16. Create Private Route
+
+        Sebagai lanjutan dari pelajaran yang lalu,
+        sekarang kita akan mencari cara untuk memastikan
+        apakah client yang mengunjungi halaman privat
+        telah ter-authentikasi atau tidak sehingga
+        kita mengarahkannya ke route yg korek.
+
+        Jika ter-authentikasi, client akan diarahkan
+        ke halaman places. Jika tidak ter-authentikasi,
+        maka dia akan diarahkan ke halaman login untuk
+        login atau sign in.
+
+        Masalahnya adalah bagaimana caranya meng-authentikasi
+        user?
+
+        Cara mudah:
+
+        1. Kita hanya perlu mendapatkan AuthContext.
+        2. Memeriksanya apakah ia memiliki token value.
+
+        Baiklah kita praktekan agar lebih riil.
+
+
+        Steps:
+
+        1. Membuat custom route: 
+           src/router/PrivateRoute.js
+        2. App.js import: AuthProvider
+        3. App.js import: PrivateRoute.js 
+        4. App.js: wrap route with AuthProvider as
+           the  top route
+        5. App.js: Add PrivateRoute for places
+        6. MainLayout.js: Create goToPlaces const
+           and add link to navbar for places
+
+        modified:   README.md
+        modified:   src/contexts/AuthContext.js
+        modified:   src/layouts/MainLayout.js
+        modified:   src/router/App.js
+        new file:   src/router/PrivateRoute.js
+
+
+
+
+
